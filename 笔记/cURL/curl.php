@@ -39,4 +39,4 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array(
 curl_exec($ch);
 
 //关闭
-curl_close();
+curl_close($ch);
