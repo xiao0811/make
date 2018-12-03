@@ -1,0 +1,18 @@
+MySQL 修改字段类型：
+
+mysql> alter table 表名 modify column 字段名 类型;
+
+MySQL 修改表名:
+mysql> alter table test rename test1;
+
+alter table test rename test1; --修改表名
+
+alter table test add  column name varchar(10); --添加表列
+
+alter table test drop  column name; --删除表列
+
+alter table test modify address char(10) --修改表列类型
+||alter table test change address address  char(40)
+
+
+alter table test change  column address address1 varchar(30)--修改表列名
