@@ -1,0 +1,7 @@
+set number
+set ts=4
+set expandtab
+%retab!
+set autoindent
+set noignorecase
+set hlsearch

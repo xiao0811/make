@@ -1,17 +1,17 @@
-  Linux 安装PHP_Redis扩展
+Linux 安装PHP_Redis扩展
 
-  975  cd /usr/local/src/
-  976  ll
-  977  tar zxf redis-3.1.5.tgz
-  978  cd redis-3.1.5
-  979  ll
-  980  cd /usr/local/php/bin/phpize
-  981  /usr/local/php/bin/phpize
-  982  ./configure --with-php-config=/usr/local/php/bin/php-config
-  983  yum install autoconf
-  984  make -j4
-  985  make install
-  986  cd /usr/local/php/lib/php/extensions/no-debug-non-zts-20160303/
-  987  ll
-  988  cd /home/wwwroot/default/
-  989  vim info.php
+cd /usr/local/src/
+ll
+tar zxf redis-3.1.5.tgz
+cd redis-3.1.5
+ll
+cd /usr/local/php/bin/phpize
+/usr/local/php/bin/phpize
+./configure --with-php-config=/usr/local/php/bin/php-config
+yum install autoconf
+make -j4
+make install
+cd /usr/local/php/lib/php/extensions/no-debug-non-zts-20160303/
+ll
+cd /home/wwwroot/default/
+vim info.php
