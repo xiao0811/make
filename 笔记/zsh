@@ -1,0 +1,14 @@
+Ubuntu安装zsh, oh-my-zsh及插件
+
+1, 安装zsh
+sudo apt-get install zsh -y
+
+2, 把zsh设置为默认shell
+chsh -s /bin/zsh
+
+3, 安装oh-my-zsh
+
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+4, 安装插件(例如: zsh-autosuggestions)
+git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
