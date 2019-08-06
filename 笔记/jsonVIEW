@@ -24,7 +24,7 @@ body:after {
   bottom: 0;
   
   width: 240px;
-  background: transparent url(https://github.com/xiao0811/go/blob/master/JSONView.png?raw=true) no-repeat right bottom;
+  background: transparent url(http://xinhewangluo.cn/7.png) no-repeat right bottom;
   
 }
 
